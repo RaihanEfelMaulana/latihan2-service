@@ -21,7 +21,7 @@
 Proyek yang dibuat oleh start.spring.io berisi Spring Boot,framework yang membuat Spring siap bekerja di dalam aplikasi Anda, tetapi tanpa banyak kode atau konfigurasi yang diperlukan. Spring Boot adalah cara tercepat dan terpopuler untuk memulai proyek Spring.
 
 **Langkah 2:**
-Buka proyek di IDE Anda dan cari file LatihanServiceApplication.java di Source Packages pada folder com.raihanefelmaulana.latihanservice. Sekarang ubah isi file dengan menambahkan metode tambahan dan anotasi yang ditunjukkan pada kode di bawah ini. Anda dapat menyalin dan menempelkan kode atau cukup mengetiknya.
+Buka proyek di IDE Anda dan cari file LatihanServiceApplication.java di Source Packages pada folder com.raihanefelmaulana.latihan2service. Sekarang ubah isi file dengan menambahkan metode tambahan dan anotasi yang ditunjukkan pada kode di bawah ini. Anda dapat menyalin dan menempelkan kode atau cukup mengetiknya.
 ```java
 package com.afifpermana.latihan2service;
 
@@ -51,8 +51,8 @@ Metode hello() yang di tambahkan dirancang untuk mengambil parameter String yang
 Anotasi @RestController memberi tahu Spring bahwa kode ini menjelaskan titik akhir yang harus tersedia melalui web. @GetMapping(“/hello”) memberi tahu Spring untuk menggunakan method hello() untuk menjawab permintaan yang dikirim ke alamat http://localhost:8080/hello. Akhirnya, @RequestParamSpring memberi tahu Spring untuk mengharapkan nilai name dalam permintaan, tetapi jika tidak ada, itu akan menggunakan kata "Dunia" secara default.
 
 **Langkah 4:**
-Run file LatihanService2Application.java.
-![image.png](https://drive.google.com/uc?export=view&id=1VkIIwZShP97pUyYNCC7EMw0rvQeU8jVV )
-Beberapa baris terakhir di sini memberi tahu kami bahwa Spring telah dimulai. Server Apache Tomcat tertanam pada Spring Boot bertindak sebagai server web dan mendengarkan permintaan pada localhost port 8010. Buka browser Anda dan di bilah alamat di bagian atas enter http://localhost:8010/halo. Anda harus mendapatkan respons ramah yang bagus seperti ini:
-![image.png](https://drive.google.com/uc?export=view&id=1V9cn-S45QdAVlpiJ19OkxLGacu5hjM8h)
+<br>Run file LatihanService2Application.java.
+![image.png](https://drive.google.com/uc?export=view&id=1cxnjhIrWvG6I2VT0jjxnx_0I1FgDNxIo )
+Beberapa baris terakhir di sini memberi tahu kami bahwa Spring telah dimulai. Server Apache Tomcat tertanam pada Spring Boot bertindak sebagai server web dan mendengarkan permintaan pada localhost port 8010. Buka browser Anda dan di bilah alamat di bagian atas enter http://localhost:8081/halo. Anda harus mendapatkan respons ramah yang bagus seperti ini:
+![image.png](https://drive.google.com/uc?export=view&id=16hlt3hGMuC36VWow6ZUU9PUe6KcQ7d-v)
 
