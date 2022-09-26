@@ -23,7 +23,7 @@ Proyek yang dibuat oleh start.spring.io berisi Spring Boot,framework yang membua
 **Langkah 2:**
 Buka proyek di IDE Anda dan cari file LatihanServiceApplication.java di Source Packages pada folder com.raihanefelmaulana.latihan2service. Sekarang ubah isi file dengan menambahkan metode tambahan dan anotasi yang ditunjukkan pada kode di bawah ini. Anda dapat menyalin dan menempelkan kode atau cukup mengetiknya.
 ```java
-package com.afifpermana.latihan2service;
+package com.raihanefelmaulana.latihan2service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -36,11 +36,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class Latihan2ServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(LatihanServiceApplication.class, args);
+        SpringApplication.run(Latihan2ServiceApplication.class, args);
     }
 
     @GetMapping("/hello")
-    public String hello(@RequestParam(value = "name", defaultValue = "Latihan 2") String name) {
+    public String hello(@RequestParam(value = "name", defaultValue = "latihan2") String name) {
         return String.format("Hello %s!", name);
     }
 
