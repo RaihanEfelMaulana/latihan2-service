@@ -1,5 +1,13 @@
 # **Membuat Microservice Sederhana**
 
+## About
+##### Menggunakan Maven Spring
+##### Menggunakan Spring Boot versi 2.6.11
+##### Menggunakan Apache NetBeans IDE 13
+##### Menggunakan Bahasa Java
+##### Menggunakan JDK 17
+##### Menggunakan Browser Chrome
+
 ## Download Project Marven
 **Langkah 1  :** <br>Buat project Maven menggunakan Spring Initializr https://start.spring.io/
 <br>**Langkah 2  :** <br>Pilih Maven Project pada pilihan project dan java pada pilihan bahasa
